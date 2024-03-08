@@ -74,9 +74,9 @@ db.userDbConfig.connect((err) => {
 });
 
 const privateKeyPath =
-  process.env.PRIVATE_KEY_PATH || "utils/certificatFiles/localhost.key";
+  process.env.PRIVATE_KEY_PATH || "utills/certificatFiles/localhost.key";
 const certificatePath =
-  process.env.CERTIFICATE_PATH || "utils/certificatFiles/localhost.crt";
+  process.env.CERTIFICATE_PATH || "utills/certificatFiles/localhost.crt";
 
 // Load the SSL certificate and private key
 const privateKey = fs.readFileSync(privateKeyPath);
