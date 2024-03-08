@@ -7,16 +7,6 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dolevtabibi/Communication-LTD.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dolevtabibi/Communication-LTD/issues"
-  },
-  "homepage": "https://github.com/dolevtabibi/Communication-LTD#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
